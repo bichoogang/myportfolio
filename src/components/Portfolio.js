@@ -10,6 +10,7 @@ import port8 from './img/port8.png'
 import port9 from './img/port9.png'
 import port10 from './img/port10.png'
 import port11 from './img/port11.png'
+import port12 from './img/port12.png'
 import { BsArrowDownCircleFill,BsArrowUpCircleFill ,BsFillArrowUpRightCircleFill } from "react-icons/bs";
 function Portfolio() {
     const [num,setnum] = useState(6)
@@ -37,6 +38,12 @@ function Portfolio() {
             des: "(Tech Blog Web App)",
             title: "TECHHUB",
             url: "https://happy-heisenberg-9c1cdd.netlify.app/"
+        },
+        {
+            img: port12,
+            des: "(Instagram Clone)",
+            title: "Instagram",
+            url: "https://friendly-leakey-dc1395.netlify.app/"
         },
         {
             img: port2,
