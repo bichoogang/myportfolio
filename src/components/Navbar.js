@@ -122,7 +122,7 @@ function Navbar() {
                                 <li className="homee active navitem"><a href="/#">Home</a></li>
                                 <li className="services navitem"><a href="/#service">Services</a></li>
                                 <li className="aboutt navitem"><a href="/#about">About</a></li>
-                                <li className="skill navitem"><a href="/#Skill">Skill</a></li>
+                                <li className="skill navitem"><a href="/#Skill">Skills</a></li>
                                 <li className="port navitem"><a href="/#portfolio">Portfolio</a></li>
                                 <li className="cont navitem"><a href="/#contactme">Contact</a></li>
 
