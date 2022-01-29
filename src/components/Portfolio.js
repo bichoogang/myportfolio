@@ -22,6 +22,12 @@ function Portfolio() {
             url: "https://techmartt.netlify.app"
         },
         {
+            img: port1,
+            des: "(Multi-Cuisine Resturant)",
+            title: "Foodooze",
+            url: "https://foodooze.netlify.app/"
+        },
+        {
             img: port8,
             des: "(Cake Shop)",
             title: "CakeWorld",
