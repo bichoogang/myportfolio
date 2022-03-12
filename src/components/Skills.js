@@ -101,7 +101,7 @@ function Skills() {
                                 <img src={v.logo} className='img-fluid' />
                                     </div>
                                     
-                                    <h2>{v.title}</h2>
+                                    <h2 className='text-center'>{v.title}</h2>
                                 </div>
                              // </div>
                         })

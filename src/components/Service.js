@@ -9,6 +9,12 @@ const servicelist = [
         des:'Web development services include both front-end and back-end development. Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for the challenge.'
 
     },
+    // {
+    //     logo:<TiCode/>,
+    //     title:"App Development",
+    //     des:'App development services include both front-end and back-end development. Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for the challenge.'
+
+    // },
     {
         logo:<MdDevices/>,
         title:"Responsive Design",
@@ -35,7 +41,7 @@ function Service() {
                     
                     {
                         servicelist?.map((v,i)=>{
-                            return <div className='col-md-4 px-2 mt-3'>
+                            return <div className='col-md-6 col-xl-4 px-2 mt-3'>
                             <div className='cardx ' data-aos="zoom-in" data-aos-duration="1000" >
                                 {v.logo}
                                 <h3>{v.title}</h3>
