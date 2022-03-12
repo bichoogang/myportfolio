@@ -61,6 +61,10 @@ const skilllist = [
         title: 'GITHUB' 
     },
     {
+        logo: react,
+        title: 'react native' 
+    },
+    {
         logo: figma,
         title: 'figma' 
     },

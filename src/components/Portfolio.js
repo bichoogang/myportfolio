@@ -11,6 +11,7 @@ import port9 from './img/port9.png'
 import port10 from './img/port10.png'
 import port11 from './img/port11.png'
 import port12 from './img/post12.png'
+import port13 from './img/port15.png'
 import { BsArrowDownCircleFill,BsArrowUpCircleFill ,BsFillArrowUpRightCircleFill } from "react-icons/bs";
 function Portfolio() {
     const [num,setnum] = useState(6)
@@ -19,76 +20,89 @@ function Portfolio() {
             img: port4,
             des: "(E-commerence website)",
             title: "TechMart",
-            url: "https://techmartt.netlify.app"
+            url: "https://techmartt.netlify.app",
+            button:"View Website"
         },
         {
             img: port1,
             des: "(Multi-Cuisine Resturant)",
             title: "Foodooze",
-            url: "https://foodooze.netlify.app/"
+            url: "https://foodooze.netlify.app/",
+            button:"View Website"
+        },
+        {
+            img: port13,
+            des: "(Multi-Cuisine Resturant)",
+            title: "Foodooze Mobile App",
+            url: "https://expo.dev/@devohut/Foodooze/",
+            button:"View App"
         },
         {
             img: port8,
             des: "(Cake Shop)",
             title: "CakeWorld",
-            url: "https://cakeworldn.netlify.app/"
+            url: "https://cakeworldn.netlify.app/",
+            button:"View Website"
         },
         {
             img: port6,
             des: "Chatting Web App",
             title: "Messager",
-            url: "https://messager.netlify.app/"
+            url: "https://messager.netlify.app/",
+            button:"View Website"
         },
         {
             img: port9,
             des: "(Tech Blog Web App)",
             title: "TECHHUB",
-            url: "https://happy-heisenberg-9c1cdd.netlify.app/"
+            url: "https://happy-heisenberg-9c1cdd.netlify.app/",
+            button:"View Website"
         },
         {
             img: port12,
             des: "(Instagram Clone)",
             title: "Instagram",
-            url: "https://friendly-leakey-dc1395.netlify.app/"
+            url: "https://friendly-leakey-dc1395.netlify.app/",
+            button:"View Website"
         },
         {
             img: port2,
             des: "(A bed and breakfast (typically shortened to B&B or BnB))",
             title: "Nestled Inn",
-            url: "https://fervent-hypatia-2c1f75.netlify.app/"
+            url: "https://fervent-hypatia-2c1f75.netlify.app/",
+            button:"View Website"
         },
-        {
-            img: port1,
-            des: "(Multi-Cuisine Resturant)",
-            title: "Foodooze",
-            url: "https://foodooze.netlify.app/"
-        },
+    
         {
             img: port10,
             des: "(Movie Web App)",
             title: "MovieApp",
-            url: "https://zen-mclean-d30e68.netlify.app/"
+            url: "https://zen-mclean-d30e68.netlify.app/",
+            button:"View Website"
         },
         
         {
             img: port3,
             des: "(Burger Resturant)",
             title: "Burgery",
-            url: ""
+            url: "https://gallant-volhard-b773fe.netlify.app/",
+            button:"View Website"
         },
         
         {
             img: port11,
             des: "(Interior Design website)",
             title: "Interiorlia",
-            url: "https://laughing-lichterman-271421.netlify.app/"
+            url: "https://laughing-lichterman-271421.netlify.app/",
+            button:"View Website"
         },
         
         {
             img: port7,
             des: "(Trek Planing website)",
             title: "TreckPlanner",
-            url: "https://xenodochial-goodall-a32c1b.netlify.app/"
+            url: "https://xenodochial-goodall-a32c1b.netlify.app/",
+            button:"View Website"
         }
     ]
     return (
@@ -109,7 +123,7 @@ function Portfolio() {
                                         <h2>{v?.title}</h2>
                                         <p>{v.des}</p>
                                         <a href={v?.url} target="_blank">
-                                        <button className='mt-2'>View Website <BsFillArrowUpRightCircleFill/></button>
+                                        <button className='mt-2'>{v?.button} <BsFillArrowUpRightCircleFill/></button>
                                         </a>
                                        
                                     </div>

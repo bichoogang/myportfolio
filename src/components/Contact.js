@@ -55,7 +55,7 @@ function Contact() {
                                     <p>OR</p>
                                     <div className='social'>
                                     <a href='https://www.instagram.com/themerndeveloper' target="_blank"><AiFillInstagram class="leftitem" /></a>
-                                    <a href='' target="_blank" ><AiOutlineWhatsApp class="leftitem" /></a>
+                                    <a href='https://api.whatsapp.com/send/?phone=917047416015&text&app_absent=0' target="_blank" ><AiOutlineWhatsApp class="leftitem" /></a>
                                     <a href='https://www.linkedin.com/in/shantanu-saha-5717b7148/' target="_blank" ><AiFillLinkedin class="leftitem" /></a>
                                     <a href='https://www.fiverr.com/shantanusaha' target="_blank" ><SiFiverr class="leftitem" /></a>
                                     <a href='https://t.me/sanuu_mern' target="_blank" ><SiTelegram className='leftitem' /></a>
