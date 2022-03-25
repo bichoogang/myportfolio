@@ -1,6 +1,6 @@
 import React from 'react'
 import { TiCode} from "react-icons/ti";
-import { MdDevices,MdShoppingCart } from "react-icons/md";
+import { MdDevices,MdShoppingCart,MdOutlineAppRegistration } from "react-icons/md";
 import Aos from 'aos';
 const servicelist = [
     {
@@ -9,12 +9,12 @@ const servicelist = [
         des:'Web development services include both front-end and back-end development. Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for the challenge.'
 
     },
-    // {
-    //     logo:<TiCode/>,
-    //     title:"App Development",
-    //     des:'App development services include both front-end and back-end development. Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for the challenge.'
+    {
+        logo:<MdOutlineAppRegistration/>,
+        title:"Cross-platform App Development",
+        des:'Cross-platform App Development services includes fast, bug-free & well-documented mobile applications that will work across multiple platforms and operating systems (Android and Apple devices) .'
 
-    // },
+    },
     {
         logo:<MdDevices/>,
         title:"Responsive Design",
@@ -24,7 +24,7 @@ const servicelist = [
     {
         logo:<MdShoppingCart/>,
         title:"E-Commerce & CMS Development",
-        des:'I provide best features in eCommerce webiste development with Client Management System and Payment Gateway solutions'
+        des:'I provide best features in eCommerce development with Client Management System and Payment Gateway solutions'
 
     }
 ]
@@ -41,7 +41,7 @@ function Service() {
                     
                     {
                         servicelist?.map((v,i)=>{
-                            return <div className='col-md-6 col-xl-4 px-2 mt-3'>
+                            return <div className='col-md-6 col-xl-3 px-2 mt-3'>
                             <div className='cardx ' data-aos="zoom-in" data-aos-duration="1000" >
                                 {v.logo}
                                 <h3>{v.title}</h3>

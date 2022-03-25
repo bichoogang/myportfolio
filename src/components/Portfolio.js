@@ -12,6 +12,7 @@ import port10 from './img/port10.png'
 import port11 from './img/port11.png'
 import port12 from './img/post12.png'
 import port13 from './img/port15.png'
+import port14 from './img/port14.png'
 import { BsArrowDownCircleFill,BsArrowUpCircleFill ,BsFillArrowUpRightCircleFill } from "react-icons/bs";
 function Portfolio() {
     const [num,setnum] = useState(6)
@@ -21,56 +22,63 @@ function Portfolio() {
             des: "(E-commerence website)",
             title: "TechMart",
             url: "https://techmartt.netlify.app",
-            button:"View Website"
+            button:"Open Website"
         },
         {
             img: port1,
             des: "(Multi-Cuisine Resturant)",
             title: "Foodooze",
             url: "https://foodooze.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
         },
         {
             img: port13,
             des: "(Multi-Cuisine Resturant)",
             title: "Foodooze Mobile App",
             url: "https://expo.dev/@devohut/Foodooze/",
-            button:"View App"
+            button:"Open App"
         },
         {
             img: port8,
             des: "(Cake Shop)",
             title: "CakeWorld",
             url: "https://cakeworldn.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
         },
         {
-            img: port6,
-            des: "Chatting Web App",
+            img: port14,
+            des: "Chatting Mobile App",
             title: "Messager",
-            url: "https://messager.netlify.app/",
-            button:"View Website"
+            url: "https://expo.dev/@devohut/messenger/",
+            button:"Open App"
         },
         {
             img: port9,
             des: "(Tech Blog Web App)",
             title: "TECHHUB",
             url: "https://happy-heisenberg-9c1cdd.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
         },
         {
             img: port12,
             des: "(Instagram Clone)",
             title: "Instagram",
             url: "https://friendly-leakey-dc1395.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
+        },
+        {
+            img: port6,
+            des: "Chatting Web App",
+            title: "Messager",
+            url: "https://messager.netlify.app/",
+            button:"Open Website"
         },
         {
             img: port2,
             des: "(A bed and breakfast (typically shortened to B&B or BnB))",
             title: "Nestled Inn",
             url: "https://fervent-hypatia-2c1f75.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
         },
     
         {
@@ -78,7 +86,7 @@ function Portfolio() {
             des: "(Movie Web App)",
             title: "MovieApp",
             url: "https://zen-mclean-d30e68.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
         },
         
         {
@@ -86,7 +94,7 @@ function Portfolio() {
             des: "(Burger Resturant)",
             title: "Burgery",
             url: "https://gallant-volhard-b773fe.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
         },
         
         {
@@ -94,7 +102,7 @@ function Portfolio() {
             des: "(Interior Design website)",
             title: "Interiorlia",
             url: "https://laughing-lichterman-271421.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
         },
         
         {
@@ -102,7 +110,7 @@ function Portfolio() {
             des: "(Trek Planing website)",
             title: "TreckPlanner",
             url: "https://xenodochial-goodall-a32c1b.netlify.app/",
-            button:"View Website"
+            button:"Open Website"
         }
     ]
     return (
