@@ -12,7 +12,7 @@ import port10 from './img/port10.png'
 import port11 from './img/port11.png'
 import port12 from './img/post12.png'
 import port13 from './img/port15.png'
-import port14 from './img/port14.png'
+import port14 from './img/port18.png'
 import { BsArrowDownCircleFill,BsArrowUpCircleFill ,BsFillArrowUpRightCircleFill } from "react-icons/bs";
 function Portfolio() {
     const [num,setnum] = useState(6)
